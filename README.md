@@ -1,67 +1,56 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+![User Management System with Laravel, React, and Docker](./public/print-app.png)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## User Management System with Laravel, React, and Docker
 
-## About Laravel
+This application is a user management system using React for the front-end and Axios for communication with the back-end. We will cover creating routes, views, components, contexts, and configuring Axios. By the end, you will have a functional system with features for user login, registration, listing, editing, and deletion.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The application dive into following points: 
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+📌 Building a powerful front-end application with React
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+📌 Efficient navigation techniques using react-router-dom
 
-## Learning Laravel
+📌 Utilizing the Context API to provide essential user information
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+📌 Effective communication with the back-end via Axios
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+📌 Developing a robust back-end application with Laravel
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+📌 Creating a REST API to manage user data with precision
 
-## Laravel Sponsors
+## Prerequisites
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Before we begin with the installation of Laravel and React using Docker, you need to have Docker installed on your machine. We will show you how to install Docker Desktop, a user-friendly tool for managing your Docker containers.
 
-### Premium Partners
+#### Step 1: Downloading Docker Desktop
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+1. Visit the official Docker website.
 
-## Contributing
+2. Click on the “Download Docker Desktop” button.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+3. Choose the appropriate version for your operating system (Windows, macOS, or Linux).
 
-## Code of Conduct
+#### Step 2: Installing Docker Desktop
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+1. After downloading, open the installer and follow the on-screen instructions.
 
-## Security Vulnerabilities
+   For Windows: The installer will prompt you to enable WSL 2 (Windows Subsystem for Linux 2) integration, which is recommended for better performance.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+   For macOS: Drag the Docker icon to the Applications folder.
 
-## License
+   For Linux: Follow the specific installation instructions for your distribution (this usually involves adding the Docker repository and installing via the package manager).
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# manger-user
+2. After installation, open Docker Desktop. It may request additional permissions for setup and execution.
+
+3. Verify the installation by opening a terminal and running the command:
+
+#### Step 3: Node
+You must have node installed in your machine for install dependencies.
+
+### Installing Dependencies
+
+`` 
+    npm install
+``
+
+
